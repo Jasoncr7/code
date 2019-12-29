@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #89cff0;
+	font-family: Sans-Serif, Roboto;
+}
+header img{
+	width: 7%;
+	height: 7%;
+}
+.links{
+	display: flex;
+	justify-content: space-around; 
+}
+header a{
+	text-decoration: none;
+	font-size: 19pt;
+	padding-top: 2.2%;
+	color: #000;
+}
+header a:hover{
+	color: #FFF;
+}
+#about{
+	background-color: #89cff0;
+	font-family: Sans-Serif, Roboto;
+	color: white;
+}
+#about p{
+	font-size: 19pt;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1.5%;
+}
+#about h1{
+	display: flex;
+	justify-content: center;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	color: black;
+}
+#projects{
+	background-color: #89cff0;
+	font-family: Sans-Serif, Roboto;
+	color: white;
+}
+#projects h1{
+	color: black;
+}
+#projects p{
+	font-size: 19pt;
+	padding: 1.5% 0 1.5% 0;
+	color: white; 
+}
+#projects a{
+	font-size: 19pt;
+	text-decoration: none;
+	color: black;
+	padding: 1.5% 0 1.5% 0;
+}
+#projects a:hover{
+	color: white;
+}
+.me{
+	display: flex;
+	justify-content: space-around;
+}
+#contacts{
+	background-color: #89cff0;
+	font-family: Sans-Serif, Roboto;
+	color: white;
+}
+#contacts h1{
+	color: black;
+}
+#contacts p{
+	font-size: 19pt;
+	padding: 1.5% 0 1.5% 0;
+	color: white;
+}
+#form{
+	background-color: #89cff0;
+	font-family: Sans-Serif, Roboto;
+}
+#form h1{
+	color: black;
+}
+#form input{
+	background-color: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: black;
+	width: 45%;
+	height: 30px;
+}
+#form input:hover{
+	font-size: 21pt;
+}
+form{
+	margin-left: 20%;
+	padding-bottom: 1.5%;
+}
+.all{
+	margin-left: 15%;
+}
+button{
+	width: 60%;
+	background-color: brown;
+	border-radius: 30px;
+	height: 30px;
+	color: white;
+	margin-top: 10px;
+	margin-left: 7%;
+}
